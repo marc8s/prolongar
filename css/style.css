@@ -1,0 +1,228 @@
+* {
+	 margin: 0; 
+	 padding: 0; 
+}
+html{
+	height: 100%;
+	width: 100%;
+	
+}
+body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+ul li{	
+	display: inline;/*remove the line breaks before and after each list item, to display them on one line*/
+	padding: 1%;
+	font-size: 1.2em;	
+	
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+.menu{	
+	padding: 1%;
+	text-align: right;	
+	
+	
+}
+.size-section{	
+	height: 100%;
+}
+footer{		
+	text-align:center;
+	font-size: 1.5em;
+	padding: 1%;
+}
+.white-bg{
+	background-color: #FFFFFF;	
+}
+.gray-bg{
+	background-color: #EBEBE0;	
+}
+.principal-bg{
+	background-color: #000000;
+}
+.blue-bg{
+	background-color: #0099FF;
+}
+.green-bg{
+	background-color: green;
+}
+
+
+.put-right{
+	float:right;
+}
+.put-left{
+	float:left;
+}
+
+.content-justify{
+	text-align: justify;	
+}
+.content-center{	
+	text-align: center;
+	padding: 2%;
+}
+.img-worksleft{
+	margin-left:25%; 
+	margin-right:auto;
+	max-width: 25%;
+    height: auto;
+}
+.img-worksright{
+	max-width: 25%;
+    height: auto;
+}
+#logo{	
+	margin: 1% 1% 1% 1%;
+	max-width:1.8em;
+    height: auto;
+}
+#logomarca{	
+	margin-top: 20%;
+}
+#sessao1{
+	background-image: url("../img/bg-s1.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#sessao2{
+	background-image: url("../img/ipad.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#sessao3{
+	background-image: url("../img/startup-594091_1280.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+
+#div-with-all-rows{
+	height:100%;
+	width: 100%;
+	position: relative;
+	
+}
+#button-nav1{
+	margin-left: 40%;
+}
+#button-nav2{	
+	margin-right: 46%;
+	
+}
+#button-nav3{	
+	margin-right: 46%;
+}
+#div-form{
+	margin-left: 20%;
+	margin-right: 20%;
+	height:70%;
+}
+#what-we-do{
+	position: relative;
+	/*display: block;  */
+	
+  
+}
+#who-we-are{
+
+	position: relative;
+}
+/* animated elements */
+.animateblock {
+  /*padding: 8px 0;
+  /*color: #fff;*/
+  opacity: 0;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.animateblock.animated {
+  opacity: 1;
+}
+
+/* animation transition styles */
+.animateblock.left {
+  margin-left: -2%;
+}
+.animateblock.left.animated {
+  margin-left: 0%;
+}
+
+.animateblock.right {
+  display: block;
+  /*margin-left: 100%;*/
+  margin-right: -2%;
+}
+.animateblock.right.animated {
+  /*margin-left: 67%;*/
+  margin-right: 0%;
+}
+
+.animateblock.top {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: -25px;
+}
+.animateblock.top.animated {
+  margin-top: 0px;
+}
+
+.animateblock.btm {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.animateblock.btm.animated {
+  margin-top: 0;
+}
+
+.animateblock.centerleft {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-right: -10%;
+}
+.animateblock.centerleft.animated {
+  margin-right: 0;
+}
+
+.animateblock.centerright {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-left: -10%;
+}
+.animateblock.centerright.animated {
+  margin-left: 0;
+}
+
+.animateblock.center {
+  margin-left: 2%;
+}
+.animateblock.center.animated {
+  margin-left: 42%;
+}
+
+.animateblock.size {
+  display: block;
+  width: 10%;
+  text-align: center;
+}
+.animateblock.size.animated {
+  width: 100%;
+  height: 100%;
+}
+.animateblock.size img {
+  max-width: 100%;
+  height: auto;
+}
