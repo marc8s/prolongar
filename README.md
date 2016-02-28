@@ -12,7 +12,6 @@
 
 # TO DO 
 
-* Selecionar um item no mapa
 * Realizar ação sobre o item selecionado no mapa
 * Adicionar um item no mapa via interface
 * Remover um item do mapa via interface
@@ -22,3 +21,5 @@
 * Permitir a denuncia de um produto 
 
 # DOING
+
+* Selecionar um item no mapa
