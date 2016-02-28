@@ -20,32 +20,32 @@
 		 $(function(){
 				
 				// conteudo das infowindows 
-				var conteudoCampoGrande = '<div id="balao">'+
+				var conteudoArmario = '<div id="balao">'+
 				 '<img src="img/armario.jpg" />'+
-										'<p><strong>Senac Campo Grande</strong></p>'+
-										'<p>Fone: (67) 3312-6260</p>'+
-										'<p><a href="http://www.ms.senac.br/cursos/catalogo.php?acao=unidade&u=5" target="_blank">Ver os cursos desta unidade</a></p>'+
+										'<p><strong>Armário</strong></p>'+
+										'<p>Descrição: armário amarelo</p>'+
+										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
 										'</div>';
 					 
-				var conteudoDourados = '<div id="balao">'+
+				var conteudoCamisa = '<div id="balao">'+
 				 '<img src="img/camisa.jpg" />'+
-										'<p><strong>Senac Dourados</strong></p>'+
-										'<p>Fone: (67) 3411-2400</p>'+
-										'<p><a href="http://www.ms.senac.br/cursos/catalogo.php?acao=unidade&u=7" target="_blank">Ver os cursos desta unidade</a></p>'+
+										'<p><strong>Camisa</strong></p>'+
+										'<p>Descrição: Camisa hipster</p>'+
+										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
 										'</div>';	 
 										
-				var conteudoCorumba = '<div id="balao">'+
+				var conteudoBrinquedo = '<div id="balao">'+
 				 '<img src="img/brinquedo.jpg" />'+
-										'<p><strong>Senac Corumbá</strong></p>'+
-										'<p>Fone: (67) 3234-2000</p>'+
-										'<p><a href="http://www.ms.senac.br/cursos/catalogo.php?acao=unidade&u=6" target="_blank">Ver os cursos desta unidade</a></p>'+
+										'<p><strong>Trator</strong></p>'+
+										'<p>Descrição: Trator para crianças</p>'+
+										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
 										'</div>';
 											 
-				var conteudoTresLagoas = '<div id="balao">'+
+				var conteudoLivro = '<div id="balao">'+
 				 '<img src="img/livro.jpg" />'+
-										'<p><strong>Senac Três Lagoas</strong></p>'+
-										'<p>Fone: (67) 3509-5100</p>'+
-										'<p><a href="http://www.ms.senac.br/cursos/catalogo.php?acao=unidade&u=8" target="_blank">Ver os cursos desta unidade</a></p>'+
+										'<p><strong>Livro</strong></p>'+
+										'<p>Descrição: O pequeno principe</p>'+
+										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
 										'</div>';	 						
 		// inicializa plugin gmap3			 
 		$("#mapa").gmap3({
@@ -76,11 +76,11 @@
 			// valores (localização dos marcadores)	
 			values:[
 			// pode ser uma latitude/longitude
-			  {latLng:[-12.205046, -38.972019], data:conteudoCampoGrande, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
+			  {latLng:[-12.205046, -38.972019], data:conteudoArmario, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
 			// podem ser palavras-chave ou endereços
-			  {latLng:[-12.206734, -38.969315], data:conteudoCorumba, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
-			  {latLng:[-12.203604, -38.969793], data:conteudoDourados, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
-			  {latLng:[-12.208386, -38.972186], data:conteudoTresLagoas, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}}
+			  {latLng:[-12.206734, -38.969315], data:conteudoCamisa, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
+			  {latLng:[-12.203604, -38.969793], data:conteudoBrinquedo, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
+			  {latLng:[-12.208386, -38.972186], data:conteudoLivro, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}}
 			],
 			// evita reposicionar marcadores
 			options:{
