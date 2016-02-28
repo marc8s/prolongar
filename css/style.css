@@ -78,6 +78,23 @@ footer{
 	max-width: 25%;
     height: auto;
 }
+
+#balao {
+	width: 370px;
+	height: 110px;
+	padding: 5px;
+}
+#balao p {
+	margin: 0;
+	text-align: left;
+	float: left;
+}
+#balao img {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
 #logo{	
 	margin: 1% 1% 1% 1%;
 	max-width:1.8em;

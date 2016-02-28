@@ -9,10 +9,11 @@
 * Centralizar mapa em determinada localização
 * Inserir pontos no mapa 
 * Interface de opções de interação com o mapa
+* Selecionar um item no mapa
+* Realizar ação sobre o item selecionado no mapa
 
 # TO DO 
 
-* Realizar ação sobre o item selecionado no mapa
 * Adicionar um item no mapa via interface
 * Remover um item do mapa via interface
 * Alterar um item do mapa via interface
@@ -22,4 +23,3 @@
 
 # DOING
 
-* Selecionar um item no mapa
