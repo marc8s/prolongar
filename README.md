@@ -11,10 +11,12 @@
 * Interface de opções de interação com o mapa
 * Selecionar um item no mapa
 * Realizar ação sobre o item selecionado no mapa
+* Exibir produtos vindos de uma base de dados no mapa
+* Adicionar um item no mapa via interface
 
 # TO DO 
 
-* Adicionar um item no mapa via interface
+* Salvar imagens dos produtos no banco de dados
 * Remover um item do mapa via interface
 * Alterar um item do mapa via interface
 * Permitir a reserva de um produto

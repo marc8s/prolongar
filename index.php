@@ -37,6 +37,7 @@ include_once("connect.php");
 				var conteudo = '<div id="balao">'+
 				 '<img src="img/armario.jpg" />'+
 										'<p><strong><?php echo $row->name; ?></strong></p>'+
+										'<p>Descrição: <?php echo $row->description; ?></p>'+
 										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
 										'</div>';
 				var latitudeProduto = <?php echo $row->lat; ?>;
@@ -223,8 +224,10 @@ include_once("connect.php");
 						<input type="checkbox" value="">Outros<br>
 					</label>
 					<div class="content-center">
-						<br><br><br><button type="button" class="btn btn-primary center">Busca ai pra mim</button>
-						<button type="button" class="btn btn-info">Eu quero doar um produto</button>
+						<br><br><br>
+						<button type="button" class="btn btn-primary center">Busca ai pra mim</button>
+						<!--<button type="button" class="btn btn-info">Eu quero doar um produto</button>-->
+						<a href="preencher_add.php" class="btn btn-default">Quero doar um produto</a>
 					</div>
 						
 				</div>
