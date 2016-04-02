@@ -21,11 +21,27 @@ include_once("connect.php");
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 		<script type="text/javascript" src="js/gmap3.js"></script>
 		<script type="text/javascript">
+		<?php
+			$resultado = $conexao->query("SELECT * FROM produtos");
+			
+		?>
 		// inicializa jquery
 		 $(function(){
+			 
+			<?php 
+				while($row = $resultado->fetch_object()){
+				//}
+			?>	
 				
 				// conteudo das infowindows 
-				var conteudoArmario = '<div id="balao">'+
+				var conteudo = '<div id="balao">'+
+				 '<img src="img/armario.jpg" />'+
+										'<p><strong><?php echo $row->name; ?></strong></p>'+
+										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
+										'</div>';
+				var latitudeProduto = <?php echo $row->lat; ?>;
+				var longitudeProduto = <?php echo $row->lng; ?>;
+				/*var conteudoArmario = '<div id="balao">'+
 				 '<img src="img/armario.jpg" />'+
 										'<p><strong>Armário</strong></p>'+
 										'<p>Descrição: armário amarelo</p>'+
@@ -51,7 +67,7 @@ include_once("connect.php");
 										'<p><strong>Livro</strong></p>'+
 										'<p>Descrição: O pequeno principe</p>'+
 										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
-										'</div>';	 						
+										'</div>';	 */						
 		// inicializa plugin gmap3			 
 		$("#mapa").gmap3({
 			map:
@@ -80,12 +96,13 @@ include_once("connect.php");
 			marker:{
 			// valores (localização dos marcadores)	
 			values:[
+				{latLng:[latitudeProduto, longitudeProduto], data:conteudo, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}}
 			// pode ser uma latitude/longitude
-			  {latLng:[-12.205046, -38.972019], data:conteudoArmario, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
+			  //{latLng:[-12.205046, -38.972019], data:conteudoArmario, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
 			// podem ser palavras-chave ou endereços
-			  {latLng:[-12.206734, -38.969315], data:conteudoCamisa, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
+			  /*{latLng:[-12.206734, -38.969315], data:conteudoCamisa, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
 			  {latLng:[-12.203604, -38.969793], data:conteudoBrinquedo, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}},
-			  {latLng:[-12.208386, -38.972186], data:conteudoLivro, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}}
+			  {latLng:[-12.208386, -38.972186], data:conteudoLivro, options:{icon:"img/marcador.png", shadow:"img/marcador_sombra.png"}}*/
 			],
 			// evita reposicionar marcadores
 			options:{
@@ -118,6 +135,10 @@ include_once("connect.php");
 			}
 		  }
 		  }); 
+		  <?php 
+				//while($row = $resultado->fetch_object()){
+				}
+			?>	
 		});     
 		</script>
 	</head>
