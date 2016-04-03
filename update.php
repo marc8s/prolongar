@@ -8,9 +8,10 @@
 	$name = $_POST['campo1'];
 	$description = $_POST['campo2'];
 	$id = $_POST['campo3'];
+	$status = $_POST['campo4'];
 	
 
-	$sql = "UPDATE produtos set name ='$name', description ='$description' WHERE id = $id";
+	$sql = "UPDATE produtos set name ='$name', description ='$description', status ='$status' WHERE id = $id";
 	$conexao->query($sql);
 	$conexao->close();
 	$url = 'index.php';

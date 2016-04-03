@@ -38,9 +38,10 @@ include_once("connect.php");
 				 '<img src="img/armario.jpg" />'+
 										'<p><strong><?php echo $row->name; ?></strong></p>'+
 										'<p>Descrição: <?php echo $row->description; ?></p>'+
-										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
+										'<p>Status: <?php echo $row->status; ?></p>'+										
 										'<p><a href="view_del.php?id=<?php echo $row->id; ?>" target="_blank">Remover</a></p>'+
 										'<p><a href="edit.php?id=<?php echo $row->id; ?>" target="_blank">Editar</a></p>'+
+										'<p><a href="reservar.php?id=<?php echo $row->id; ?>" target="_blank">Reservar</a></p>'+
 										'</div>';
 				var latitudeProduto = <?php echo $row->lat; ?>;
 				var longitudeProduto = <?php echo $row->lng; ?>;

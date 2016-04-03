@@ -15,11 +15,10 @@
 * Adicionar um item no mapa via interface
 * Remover um item do mapa via interface
 * Alterar um item do mapa via interface
+* Permitir a reserva de um produto
 
 # TO DO 
 
-
-* Permitir a reserva de um produto
 * Salvar imagens dos produtos no banco de dados
 * Implementar area administrativa
 * Implementar opções de frete

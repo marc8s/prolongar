@@ -56,11 +56,17 @@
 					   <label for="campo2">Descrição</label>
 					   <input type="text" class="form-control" id="campo2" name="campo2" value="<?php echo $row->description; ?>">
 					</div>
+					
 					<div class="form-group col-md-4">
 					   <!--<label for="campo1">Identificador</label>-->
 					   
 					   <input type="hidden" class="form-control" id="campo3" name="campo3" value="<?php echo $row->id; ?>">
 					</div>	
+					
+					<div class="form-group col-md-4">
+					   <label for="campo4">status</label>
+					   <input type="text" class="form-control" id="campo4" name="campo4" value="<?php echo $row->status; ?>">
+					</div>
 					
 				</div>
 				<hr />

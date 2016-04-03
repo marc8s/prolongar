@@ -55,6 +55,17 @@
 					</div>	 
 					
 				</div>
+				<div class="row">
+					<div class="form-group col-md-4">
+					   <label for="campo5">Identificador</label>
+					   <input type="number" class="form-control" name="campo5" id="campo5">
+					</div>	 
+					
+				</div>
+				<div class="form-group col-md-4">
+					   <label for="campo6">Tipo de produto</label>
+					   <input type="text" class="form-control" name="campo6" id="campo6">
+					</div>
 				<hr />
 				<div id="actions" class="row">
 					<div class="col-md-12">

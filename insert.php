@@ -11,13 +11,14 @@
 	$description = $_POST['campo2'];
 	$lat = $_POST['campo3'];
 	$lng = $_POST['campo4'];
+	$id = $_POST['campo5'];
+	$type = $_POST['campo6'];
 	
 	
 
 	$sql = "INSERT INTO produtos VALUES";
-	$sql .= "('', '$name', '$description', '$lat', '$lng', '')";
+	$sql .= "('$id', '$name', '$description', '$lat', '$lng', '$type', 'disponivel')";
 	
-	//INSERT INTO `produtos`(`id`, `name`, `description`, `lat`, `lng`, `type`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6])
 	$conexao->query($sql);
 	$conexao->close();
 	//include("index.php");
