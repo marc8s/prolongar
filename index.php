@@ -39,6 +39,7 @@ include_once("connect.php");
 										'<p><strong><?php echo $row->name; ?></strong></p>'+
 										'<p>Descrição: <?php echo $row->description; ?></p>'+
 										'<p><a href="#" target="_blank">Tenho interesse</a></p>'+
+										'<p><a href="view_del.php?id=<?php echo $row->id; ?>" target="_blank">Remover</a></p>'+
 										'</div>';
 				var latitudeProduto = <?php echo $row->lat; ?>;
 				var longitudeProduto = <?php echo $row->lng; ?>;
