@@ -14,10 +14,11 @@
 * Exibir produtos vindos de uma base de dados no mapa
 * Adicionar um item no mapa via interface
 * Remover um item do mapa via interface
+* Alterar um item do mapa via interface
 
 # TO DO 
 
-* Alterar um item do mapa via interface
+
 * Permitir a reserva de um produto
 * Salvar imagens dos produtos no banco de dados
 * Implementar area administrativa
