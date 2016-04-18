@@ -32,7 +32,7 @@
 			<section id="sessao4" class="white-bg size-section row" >
 				<div class="container-fluid">
 			<br><br><br><br><br>
-			<form method="post" action="insert.php"> <!--action diz respeito ao fluxo da página, substituir depois o index.html pelo correto provavelmente um script de back-end-->
+			<form method="post" action="insert.php"  enctype="multipart/form-data"> <!--enctype="multipart/form-data"-->
 				<!-- area de campos do form -->
 				<div class="row">
 					<div class="form-group col-md-4">
@@ -53,20 +53,43 @@
 					   <label for="campo4">Longitude</label>
 					   <input type="floatval" class="form-control" name="campo4" id="campo4">
 					</div>	 
-					
-				</div>
-				<div class="row">
 					<div class="form-group col-md-4">
 					   <label for="campo5">Identificador</label>
 					   <input type="number" class="form-control" name="campo5" id="campo5">
-					</div>	 
-					
-				</div>
-				<div class="form-group col-md-4">
+					</div>	
+					<div class="form-group col-md-4">
 					   <label for="campo6">Tipo de produto</label>
 					   <input type="text" class="form-control" name="campo6" id="campo6">
+					</div> 
+					
+				</div>
+
+				<div class="row">
+					
+					
+					<div class="form-group col-md-4">
+						<label for="campo4">Selecione uma imagem</label>
+						
+						<input name="arquivo" id = "arquivo" type="file" />						
 					</div>
+				</div>
+				
+				
 				<hr />
+
+				<!--<table class="table table-responsive">
+
+				 
+					<tr>
+						<td class="text-center">Foto</td>
+						<td class="text-center"><input type="file" name="foto"></td>
+						
+					</tr>
+					
+				 
+
+				</table>-->
+
 				<div id="actions" class="row">
 					<div class="col-md-12">
 						<button type="submit" class="btn btn-success">Salvar</button>

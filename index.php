@@ -23,19 +23,21 @@ include_once("connect.php");
 		<script type="text/javascript">
 		<?php
 			$resultado = $conexao->query("SELECT * FROM produtos");
-			
+			//$dir ="minhas_imagens/";
 		?>
 		// inicializa jquery
 		 $(function(){
 			 
 			<?php 
 				while($row = $resultado->fetch_object()){
+					//$imagem = $row->image;
 				//}
 			?>	
 				
 				// conteudo das infowindows 
+				
 				var conteudo = '<div id="balao">'+
-				 '<img src="img/armario.jpg" />'+
+				 '<img src="uploads/<?php echo $row->caminho_imagem; ?>"/>'+		 								 						
 										'<p><strong><?php echo $row->name; ?></strong></p>'+
 										'<p>Descrição: <?php echo $row->description; ?></p>'+
 										'<p>Status: <?php echo $row->status; ?></p>'+										
