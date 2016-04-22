@@ -53,13 +53,34 @@
 					   <label for="campo4">Longitude</label>
 					   <input type="floatval" class="form-control" name="campo4" id="campo4">
 					</div>	 
-					<div class="form-group col-md-4">
+					<!--<div class="form-group col-md-4">
 					   <label for="campo5">Identificador</label>
 					   <input type="number" class="form-control" name="campo5" id="campo5">
-					</div>	
+					</div>	-->
 					<div class="form-group col-md-4">
 					   <label for="campo6">Tipo de produto</label>
-					   <input type="text" class="form-control" name="campo6" id="campo6">
+					   <!--<input type="text" class="form-control" name="campo6" id="campo6">-->
+					   <div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Móveis">Móveis</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Roupas">Roupas</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Calçados">Calçados</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Brinquedos">Brinquedos</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Eletrônicos">Eletrônicos</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Acessórios">Acessórios</label>
+						</div>
+						<div class="radio">
+						  <label><input type="radio" name="campo6" id="campo6" value="Livros">Livros</label>
+						</div>						
 					</div> 
 					
 				</div>

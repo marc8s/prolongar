@@ -11,7 +11,7 @@
 	$description = $_POST['campo2'];
 	$lat = $_POST['campo3'];
 	$lng = $_POST['campo4'];
-	$id = $_POST['campo5'];
+	//$id = $_POST['campo5'];
 	$type = $_POST['campo6'];
 
 	$foto = $_FILES["arquivo"];
@@ -35,7 +35,7 @@
 	
 
 	$sql = "INSERT INTO produtos VALUES";
-	$sql .= "('$id', '$name', '$description', '$lat', '$lng', '$type', 'disponivel', '".$nome_imagem."')";
+	$sql .= "('','$name', '$description', '$lat', '$lng', '$type', 'disponivel', '".$nome_imagem."')";
 	
 	$conexao->query($sql);
 	$conexao->close();
