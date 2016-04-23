@@ -175,9 +175,9 @@ include_once("connect.php");
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h2><span>Multi</span> is the best Onepage html template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                    <h2><span>PROLONGAR</span> o essencial visivel aos olhos</h2>
+                                    <p>Doe e receba doações de pessoas próximas a você de forma gratuita</p>
+                                    <a class="btn btn-primary btn-lg" href="#about">Leia mais</a>
                                 </div>
                             </div>
                         </div>
@@ -190,9 +190,9 @@ include_once("connect.php");
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h2>Beautifully designed <span>free</span> one page template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                    <h2><span>PROLONGAR</span> o essencial visivel aos olhos</h2>
+                                    <p>Doe e receba doações de pessoas próximas a você de forma gratuita</p>
+                                    <a class="btn btn-primary btn-lg" href="#about">Leia mais</a>
                                 </div>
                             </div>
                         </div>
@@ -207,12 +207,14 @@ include_once("connect.php");
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Como Funciona</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p class="text-center wow fadeInDown">Prolongar é uma plataforma online voltada para a realização de transações envolvendo doações de itens 
+				em desuso. Pessoas físicas e organizações estão livres para doar ou receber os itens postados na plataforma e dispostos em um mapa com 
+				destaque de proximidade.</p>
             </div>
 
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeft">
-                    <h3 class="column-title">Tutorial</h3>
+                    <h3 class="column-title">Video Tutorial</h3>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="//player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -220,28 +222,35 @@ include_once("connect.php");
                 </div>
 
                 <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Multi Capability</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
+                    <h3 class="column-title">Para Doadores</h3>                   
                     <div class="row">
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> Ipsum is simply dummy</li>
-                                <li><i class="fa fa-check-square"></i> When an unknown</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> The printing and typesetting</li>
-                                <li><i class="fa fa-check-square"></i> Lorem Ipsum has been</li>
-                            </ul>
-                        </div>
+                        <div class="col-sm-12">
+                            <ol class="nostyle">
+                                <li><i class="fa fa-check-square"></i> Separe o item você gostaria de doar.</li>
+                                <li><i class="fa fa-check-square"></i> Capriche na Foto do item</li>
+								<li><i class="fa fa-check-square"></i> Vá até o nosso mapa</li>
+                                <li><i class="fa fa-check-square"></i> Clique em "Doar um produto"</li>
+								<li><i class="fa fa-check-square"></i> Preencha as informações referente ao item na página para o qual você será redirecionado.</li>
+                                <li><i class="fa fa-check-square"></i> Clique em salvar.</li>
+								<li><i class="fa fa-check-square"></i> Pronto! Seu produto já esta visivel no mapa e logo encontrará um novo lar.</li>                                
+                            </ol>
+                        </div>                        
                     </div>
-
-                    <a class="btn btn-primary" href="#">Learn More</a>
+					
+					<h3 class="column-title">Para Receptores</h3>                   
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ol class="nostyle">
+                                <li><i class="fa fa-check-square"></i> Vá até o nosso mapa</li>
+                                <li><i class="fa fa-check-square"></i> Selecione as opções de itens que você está procurando</li>
+								<li><i class="fa fa-check-square"></i> Clique em "Filtrar Busca"</li>
+                                <li><i class="fa fa-check-square"></i> Clique nos marcadores azuis do mapa para ver detalhes sobre o item disponivel.</li>
+								<li><i class="fa fa-check-square"></i> Clique em reservar caso tenha interesse no item.</li>
+                                <li><i class="fa fa-check-square"></i> Confira as formas de entrega disponiveis e escolha a melhor para você.</li>								                               
+                            </ol>
+                        </div>                        
+                    </div>
+                   
 
                 </div>
             </div>
