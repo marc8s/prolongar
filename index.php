@@ -159,7 +159,8 @@ include_once("connect.php");
 		                        <li class="scroll active"><a href="#main-slider">Home</a></li>
 		                        <li class="scroll"><a href="#about">Como Funciona</a></li>
 		                        <li class="scroll"><a href="#sessao3">Login</a></li>
-		                        <li class="scroll"><a href="#sessao4">Mapa</a></li>                 
+		                        <li class="scroll"><a href="#sessao4">Mapa</a></li>    
+								<li class="scroll"><a href="#">Contato</a></li>     								
 		                                               
 		                    </ul>
 		                </div>
