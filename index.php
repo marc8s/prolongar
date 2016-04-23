@@ -248,7 +248,7 @@ include_once("connect.php");
 			</section>
 
 			<section id="sessao3" class="size-section row content-justify" style=" background: #f5f5f5">
-				<br><br><br><br>
+				<br>
 				<header>
 					<div class="container">
 	                <div class="row">
@@ -315,6 +315,7 @@ include_once("connect.php");
 				<!--</div>-->
 				
 			</section>
+			
 
 			<!-- <section id="sessao5" class="gray-bg size-section row">
 				<header><div class="content-center">
