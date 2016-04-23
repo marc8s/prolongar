@@ -103,11 +103,11 @@ footer{
 #logomarca{	
 	margin-top: 20%;
 }
-#sessao1{
+/*#sessao1{
 	background-image: url("../img/bg-s1.jpg");	
 	background-repeat: no-repeat;
 	background-size: cover;	
-}
+}*/
 #sessao2{
 	background-image: url("../img/ipad.jpg");	
 	background-repeat: no-repeat;
