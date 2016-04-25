@@ -191,7 +191,7 @@ include_once("connect.php");
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h2><span>PROLONGAR</span> o essencial visivel aos olhos</h2>
-                                    <p>Doe e receba doações de pessoas próximas a você de forma gratuita</p>
+                                    <p>Existe uma crescente preocupação da população com os excessos do mundo capitalista e com os limites do uso de recursos naturais da Terra. Ao passo que as pessoas desejam viver cada vez com menos, o movimento “Free Your Stuff” (liberte as suas coisas) cresce, as transações de produtos em desuso se tornam mais comuns e vão ficando menos dependentes do dinheiro em situações nas quais o capital social substitui, ou complementa, o capital financeiro. </p>
                                     <a class="btn btn-primary btn-lg" href="#about">Leia mais</a>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@ include_once("connect.php");
                     <div class="row">
                         <div class="col-sm-12">
                             <ol class="nostyle">
-                                <li><i class="fa fa-check-square"></i> Separe o item você gostaria de doar.</li>
+                                <li><i class="fa fa-check-square"></i> Separe o item que você gostaria de doar.</li>
                                 <li><i class="fa fa-check-square"></i> Capriche na Foto do item</li>
 								<li><i class="fa fa-check-square"></i> Vá até o nosso mapa</li>
                                 <li><i class="fa fa-check-square"></i> Clique em "Doar um produto"</li>
@@ -243,7 +243,7 @@ include_once("connect.php");
                             <ol class="nostyle">
                                 <li><i class="fa fa-check-square"></i> Vá até o nosso mapa</li>
                                 <li><i class="fa fa-check-square"></i> Selecione as opções de itens que você está procurando</li>
-								<li><i class="fa fa-check-square"></i> Clique em "Filtrar Busca"</li>
+								<li><i class="fa fa-check-square"></i> Clique em "Filtrar Busca" e encontre itens próximos a você</li>
                                 <li><i class="fa fa-check-square"></i> Clique nos marcadores azuis do mapa para ver detalhes sobre o item disponivel.</li>
 								<li><i class="fa fa-check-square"></i> Clique em reservar caso tenha interesse no item.</li>
                                 <li><i class="fa fa-check-square"></i> Confira as formas de entrega disponiveis e escolha a melhor para você.</li>								                               
